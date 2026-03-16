@@ -431,6 +431,33 @@ h1 {
   padding-left: 18px;
 }
 
+.about-stats {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.stat-card {
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(15, 23, 42, 0.96);
+  border: 1px solid rgba(148, 163, 184, 0.6);
+}
+
+.stat-value {
+  font-size: 18px;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.stat-label {
+  margin-top: 2px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -512,6 +539,63 @@ h1 {
 .skills-column ul {
   margin: 0;
   padding-left: 18px;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.experience-item {
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: rgba(15, 23, 42, 0.96);
+  border: 1px solid rgba(148, 163, 184, 0.55);
+}
+
+.experience-item h3 {
+  margin: 0 0 4px;
+  font-size: 15px;
+  color: var(--text);
+}
+
+.experience-meta {
+  margin: 0;
+  font-size: 13px;
+}
+
+.experience-meta-sub {
+  margin: 0 0 6px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.experience-item ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.education-block {
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: rgba(15, 23, 42, 0.96);
+  border: 1px solid rgba(148, 163, 184, 0.55);
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.education-block h3 {
+  margin: 0 0 4px;
+  font-size: 15px;
+  color: var(--text);
+}
+
+.education-meta {
+  margin: 0;
+  font-size: 13px;
 }
 
 .contact-grid {
