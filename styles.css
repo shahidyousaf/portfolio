@@ -302,8 +302,8 @@ h1 {
 
 .avatar-frame {
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 140px;
+  height: 140px;
   border-radius: 26px;
   padding: 2px;
   background: conic-gradient(from 210deg, #38bdf8, #a855f7, #f97316, #38bdf8);
