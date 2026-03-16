@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple personal portfolio website",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
+
