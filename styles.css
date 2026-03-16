@@ -278,6 +278,12 @@ h1 {
   overflow: hidden;
 }
 
+.hero-card-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .hero-card::before {
   content: "";
   position: absolute;
